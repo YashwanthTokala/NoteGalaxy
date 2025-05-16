@@ -26,6 +26,7 @@ NoteGalaxy is a full-stack note-taking application that allows users to securely
 -dotenv – Environment config
 
 ## ⚙️ Installation & Setup
+```bash
 Clone the repository
 git clone https://github.com/YashwanthTokala/NoteGalaxy.git
 cd NoteGalaxy
@@ -46,6 +47,7 @@ npm install
 npm start
 The frontend will run at: http://localhost:3000
 The backend runs at: http://localhost:5000
+```
 
 ## 📸 Homepage Image
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/eccddcb1-cac3-4c21-8c5b-89b4f6d95e95" />
