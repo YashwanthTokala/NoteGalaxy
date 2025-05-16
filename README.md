@@ -4,26 +4,26 @@ NoteGalaxy is a full-stack note-taking application that allows users to securely
 
 ## 🚀 Features
 
--🔐 User Authentication – JWT-based signup & login.
--📝 Create, Read, Update, Delete (CRUD) Notes.
--📱 Responsive Design using Bootstrap.
--🔍 Search Notes instantly.
--⚡ Fast & Lightweight interface using React.
+- 🔐 User Authentication – JWT-based signup & login.
+- 📝 Create, Read, Update, Delete (CRUD) Notes.
+- 📱 Responsive Design using Bootstrap.
+- 🔍 Search Notes instantly.
+- ⚡ Fast & Lightweight interface using React.
 
 ## 🛠️ Tech Stack
 
 # Frontend
--React.js – UI library
--Bootstrap – Styling
--React Router DOM – Client-side routing
+- React.js – UI library
+- Bootstrap – Styling
+- React Router DOM – Client-side routing
 
 # Backend
--Node.js – Server runtime
--Express.js – REST API framework
--MongoDB + Mongoose – Database & ODM
--JWT (jsonwebtoken) – Authentication
--bcrypt.js – Password hashing
--dotenv – Environment config
+- Node.js – Server runtime
+- Express.js – REST API framework
+- MongoDB + Mongoose – Database & ODM
+- JWT (jsonwebtoken) – Authentication
+- bcrypt.js – Password hashing
+- dotenv – Environment config
 
 ## ⚙️ Installation & Setup
 ```bash
@@ -31,6 +31,7 @@ NoteGalaxy is a full-stack note-taking application that allows users to securely
 
 git clone https://github.com/YashwanthTokala/NoteGalaxy.git
 cd NoteGalaxy
+
 # Backend Setup
 
 cd backend
