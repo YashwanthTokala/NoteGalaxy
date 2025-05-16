@@ -26,10 +26,10 @@ NoteGalaxy is a full-stack note-taking application that allows users to securely
 -dotenv – Environment config
 
 ## ⚙️ Installation & Setup
-# Clone the repository
+Clone the repository
 git clone https://github.com/YashwanthTokala/NoteGalaxy.git
 cd NoteGalaxy
-# Backend Setup
+Backend Setup
 cd backend
 npm install
 
@@ -37,7 +37,7 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
 
-#Start the backend server:
+Start the backend server:
 npm start
 3. Frontend Setup
 Open a new terminal and run:
