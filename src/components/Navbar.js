@@ -13,6 +13,7 @@ const Navbar = (props) => {
     localStorage.removeItem('token')
     props.showAlert("Logged out successfully","success")
     navigate("/login")
+    // <button onClick={handleLogout} className="btn btn-success">Logout</button>
   }
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

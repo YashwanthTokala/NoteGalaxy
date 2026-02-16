@@ -6,7 +6,7 @@ const Signup = (props) => {
   const [credentials, setCredentials] = useState({name: "", email: "", password: "", cpassword: "" })
   const navigate = useNavigate();
 
-  const host = "http://localhost:5000"
+  const host = "https://notegalaxy.onrender.com"
   const handleSubmit = async (e) => {
 
     e.preventDefault()
