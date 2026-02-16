@@ -5,10 +5,11 @@ const Login = (props) => {
     const [credentials, setCredentials] = useState({email: "", password: ""})
     const navigate= useNavigate();
 
-    const host= "http://localhost:5000"
+    const host= "https://notegalaxy.onrender.com"
     const handleSubmit=async(e)=>{
         
         e.preventDefault()
+        console.log("LOGIN BUTTON CLICKED"); 
         const response = await fetch(`${host}/api/auth/login`, {
             method: 'POST',
             headers: {
